@@ -1,0 +1,9 @@
+#server:
+#  port: 9091
+eureka:
+  client:
+    service-url:
+      defaultzone: http://localhost:8761/eurkea
+spring:
+  application:
+    name: admin-service
